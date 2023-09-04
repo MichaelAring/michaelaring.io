@@ -1,0 +1,13 @@
+image:
+  file: .gitpod.Dockerfile
+
+vscode:
+  extensions:
+    - username/my-vscode-extension
+
+tasks:
+  - name: Install Dependencies
+    command: npm install
+
+  - name: Start Development Server
+    command: npm start
