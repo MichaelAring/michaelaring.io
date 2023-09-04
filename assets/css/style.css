@@ -5,7 +5,7 @@ body, h1, h2, h3, p, ul, li, address {
 }
 
 body {
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Tahoma", Tahoma, monospace;
     background-color: #f0f0f0;
     color: #000;
     line-height: 1.5;
@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: #000;
-    color: #00ff00;
+    color: #00c3ff;
     padding: 20px;
 }
 
@@ -33,7 +33,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #00ff00;
+    color: #00c3ff;
     font-weight: bold;
     font-size: 18px;
 }
@@ -48,8 +48,8 @@ section {
 
 h2 {
     font-size: 24px;
-    color: #00ff00;
-    border-bottom: 2px solid #00ff00;
+    color: #00c3ff;
+    border-bottom: 2px solid #00c3ff;
     padding-bottom: 10px;
 }
 
@@ -57,7 +57,7 @@ h2 {
     margin: 20px;
     padding: 20px;
     background-color: #000;
-    border: 2px solid #00ff00;
+    border: 2px solid #00c3ff;
     border-radius: 5px;
 }
 
@@ -67,7 +67,7 @@ h2 {
 
 .project h3 {
     font-size: 20px;
-    color: #00ff00;
+    color: #00c3ff;
     margin-top: 10px;
 }
 
@@ -76,12 +76,15 @@ h2 {
 }
 
 address a {
-    color: #00ff00;
+    color: #00c3ff;
     text-decoration: none;
 }
 
 footer {
     background-color: #000;
-    color: #00ff00;
+    color: #ffffff;
     padding: 10px;
-    position:
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
